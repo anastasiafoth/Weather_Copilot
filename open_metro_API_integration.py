@@ -24,5 +24,6 @@ def main():
     lat, lon = get_coordinates(user_location)
     return get_weather_data(lat, lon)
 
+
 if __name__ == "__main__":
     main()
